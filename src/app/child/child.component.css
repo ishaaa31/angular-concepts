@@ -1,0 +1,37 @@
+/* Styling for Child Component */
+.child-content {
+  font-size: 24px;
+  color: #333;
+  margin-top: 30px;
+  font-family: 'Georgia', serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.counter {
+  font-size: 28px;
+  color: #4CAF50;
+  margin-top: 20px;
+  font-family: 'Georgia', serif;
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lifecycle-hook {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555;
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.lifecycle-hook:hover {
+  background-color: #e0e0e0;
+}

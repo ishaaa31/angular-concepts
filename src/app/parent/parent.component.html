@@ -1,0 +1,21 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Lifecycle hooks</title>
+  </head>
+  <body>
+      <div class="parent-container">
+          <h1>Parent Component</h1>
+          <div class="button-container">
+              <button (click)="toggleChild()">Toggle Child</button>
+          </div>
+          <div class="child-container" *ngIf="isChild">
+              <app-child></app-child>
+          </div>
+      </div>
+  </body>
+  </html>
+  
